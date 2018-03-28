@@ -1,10 +1,8 @@
 # for loops
 
-## for and range
-
 The `for in` construct can be used to iterate through an `Iterator`.
-One of the easiest ways to create an iterator is to use the range
-notation `a..b`. This yields values from `a` (inclusive) to `b`
+One of the easiest ways to create an iterator is with the [range
+notation] `a..b`. This yields values from `a` (inclusive) to `b`
 (exclusive) in steps of one.
 
 Let's write FizzBuzz using `for` instead of `while`.
@@ -26,7 +24,7 @@ fn main() {
 }
 ```
 
-## for and iterators
+[range notation]: range.html
 
 The `for in` construct is able to interact with an `Iterator` in several ways.
 As discussed in with the [Iterator][iter] trait, if not specified, the `for`

@@ -135,6 +135,8 @@
     - [Iterators](trait/iter.md)
     - [Clone](trait/clone.md)
 
+- [Ranges](range.md)
+
 - [macro_rules!](macros.md)
     - [Syntax](macros/syntax.md)
         - [Designators](macros/designators.md)
